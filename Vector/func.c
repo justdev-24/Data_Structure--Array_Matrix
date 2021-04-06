@@ -8,7 +8,7 @@ int getInt(int *a){
             return 0;
         else if(n==0){
             printf("%s\n", "Error input, please repeat!");
-            scanf("*%c");
+            scanf("%*c");
         }
     }while(n==0);
     return 1;
